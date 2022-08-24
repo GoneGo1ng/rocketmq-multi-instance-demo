@@ -1,0 +1,12 @@
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: my-group1
+    sendMessageTimeout: 300000
+
+demo:
+  rocketmq:
+    topic: rocketmq-multi-instance-demo-topic
+    tagA: tagA
+    tagB: tagB
+
